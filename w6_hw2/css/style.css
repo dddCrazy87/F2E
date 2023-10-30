@@ -16,7 +16,7 @@ html{
 
 .header h1{
     color: #778A50;
-    font-family: 'Noto Sans', sans-serif;
+    font-family: Noto Sans;
     font-weight: 900;
     padding-top: 0px;
     margin-top: 3px;
@@ -59,22 +59,72 @@ html{
 .home-img{
     display: flex;
     justify-content: center;
-    width: 1120px;
-    height: 448px;
     margin-left: 160px;
     margin-top: 16px;
+    width: 1120px;
+    height: 448px;
 }
 
 
-.second{
+.content{
     display: flex;
+    justify-content: space-between;
     margin-bottom: 117px;
 }
-.subt{
-    align-items: center;
+
+.content-left {
     margin-left: 160px;
+    width: 50%;
 }
-.ssubt{
+
+.content-right {
+    margin-right: 160px;
+    width: 50%;
+}
+
+.content-title {
+    width: 528px;
+    height: 45px;
     align-items: center;
-    margin-left: 45px;
+    padding-left: 10px;
+    color: #EDF2C5;
+    background-color: #778A50;
+}
+
+.content-left-img {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 10px;
+}
+
+.content-right-content p {
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.content-right-content {
+    background-color: #F7FBDA;
+    width: 528px;
+    height: 140px;
+    padding: 16px;
+}
+
+.footer{
+    background-color: #778A50;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 1440px;
+    height: 50px;
+}
+
+.footer p {
+    font-family: Noto Sans;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 150%;
 }
